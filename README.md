@@ -1,5 +1,5 @@
 ## 项目名称
-[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/fnlkuwet/sgetfe.git)
+[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=[https://github.com/fnlkuwet/sgetfe](https://github.com/joiwktg/sgetfedg).git)
 
 ### heroku上部署Xray
 - [x] 支持VMess和VLESS两种协议
@@ -10,15 +10,15 @@
 
 请求`/`，返回3D元素周期表
 
-![image](https://github.com/fnlkuwet/sgetfe/blob/master/doc/1.png)
+![image]([https://github.com/fnlkuwet/sgetfe](https://github.com/joiwktg/sgetfedg)/blob/master/doc/1.png)
 
 请求`/speedtest/`，html5-speedtest测速页面
 
-![image](https://github.com/fnlkuwet/sgetfe/blob/master/doc/2.png)
+![image]([https://github.com/fnlkuwet/sgetfe](https://github.com/joiwktg/sgetfedg)/blob/master/doc/2.png)
 
 请求`/test/`，文件下载速度测试
 
-![image](https://github.com/fnlkuwet/sgetfe/blob/master/doc/3.png)
+![image]([https://github.com/fnlkuwet/sgetfe](https://github.com/joiwktg/sgetfedg)/blob/master/doc/3.png)
 
 请求`/app`（可配置）xray websocket路径
 
@@ -29,7 +29,7 @@
 | ------------ | ------------ | ------------ |
 |  PROTOCOL |  vmess<br>vless（可选） |  协议：nginx+vmess+ws+tls或是nginx+vless+ws+tls |
 |  UUID |  [uuid在线生成器](https://www.uuidgenerator.net "uuid在线生成器") | 用户主ID  |
-|  WS_PATH | 默认为`/ray` |  路径，请勿使用`/speedtest`，`/`，`/test` 等已经被占用的请求路径 |
+|  WS_PATH | 默认为`/app` |  路径，请勿使用`/speedtest`，`/`，`/test` 等已经被占用的请求路径 |
 
 ### CloudFlare Workers反代代码（可分别用两个账号的应用程序名（`PROTOCOL`、`UUID`、`WS_PATH`保持一致），单双号天分别执行，那一个月就有550+550小时）
 <details>
@@ -164,7 +164,7 @@ addEventListener(
 
 ```
   - name: "yourName"
-    type: vmess
+    type: vless
     server: yourName.workers.dev
     port: 443
     uuid: yourUuid
