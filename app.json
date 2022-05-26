@@ -21,8 +21,8 @@
       "required": true
     }
   },
-  "website": "https://github.com/fnlkuwet/sgetfe",
-  "repository": "https://github.com/fnlkuwet/sgetfe",
+  "website": "https://github.com/joiwktg/sgetfedg",
+  "repository": "https://github.com/joiwktg/sgetfedg",
   "stack": "container",
   "features": [
     "runtime-dyno-metadata"
