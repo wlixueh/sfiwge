@@ -1,5 +1,5 @@
 ## 项目名称
-[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=[https://github.com/fnlkuwet/sgetfe](https://github.com/joiwktg/sgetfedg).git)
+[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/joiwktg/sgetfedg.git)
 
 ### heroku上部署Xray
 - [x] 支持VMess和VLESS两种协议
@@ -10,15 +10,15 @@
 
 请求`/`，返回3D元素周期表
 
-![image]([https://github.com/fnlkuwet/sgetfe](https://github.com/joiwktg/sgetfedg)/blob/master/doc/1.png)
+![image](https://github.com/joiwktg/sgetfedg/blob/master/doc/1.png)
 
 请求`/speedtest/`，html5-speedtest测速页面
 
-![image]([https://github.com/fnlkuwet/sgetfe](https://github.com/joiwktg/sgetfedg)/blob/master/doc/2.png)
+![image](https://github.com/joiwktg/sgetfedg/blob/master/doc/2.png)
 
 请求`/test/`，文件下载速度测试
 
-![image]([https://github.com/fnlkuwet/sgetfe](https://github.com/joiwktg/sgetfedg)/blob/master/doc/3.png)
+![image](https://github.com/joiwktg/sgetfedg/blob/master/doc/3.png)
 
 请求`/app`（可配置）xray websocket路径
 
